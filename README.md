@@ -1,6 +1,9 @@
-<h1 align="center">
+<div align="center">
     <img alt="GIT - Guía completa en español" title="#cursocompletogitenespañol" src="git_logo.png" width="250px" />
-</h1>
+    <h1 align="center">
+    GIT - Guía completa en español
+    </h1>
+</div>
 
 <h4 align="center">
   Hecho de ❤️ para toda la comunidad
@@ -20,7 +23,7 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
-# Bienvenida 👋
+<h1 align="center">🖖👽</h1>
 
 **¡Bienvenido a esta guía completa para aprender Git desde los fundamentos hasta las técnicas más avanzadas!**
 
@@ -76,7 +79,7 @@
 
    - **_Estándar de la Industria_**: Es el sistema de control de versiones más utilizado en el mundo, lo que facilita la colaboración con otros desarrolladores y el acceso a recursos y herramientas.
    - **_Amplia Comunidad_**: Cuenta con una gran comunidad activa que ofrece soporte, tutoriales y soluciones a problemas comunes.
-   - **_Integración con Plataformas_**: Se integra fácilmente con plataformas populares como [**GitHub**]('https://github.com'), [**GitLab**]('https://about.gitlab.com/') y [**Bitbucket**]('https://bitbucket.org/product/'), que ofrecen funcionalidades adicionales para la gestión de proyectos y la colaboración.
+   - **_Integración con Plataformas_**: Se integra fácilmente con plataformas populares como [**GitHub**](https://github.com), [**GitLab**](https://about.gitlab.com/) y [**Bitbucket**](https://bitbucket.org/product/), que ofrecen funcionalidades adicionales para la gestión de proyectos y la colaboración.
 
 ### **Instalación de GIT**
 
@@ -84,7 +87,7 @@ La instalación de GIT es sencilla y varía ligeramente dependiendo de tu sistem
 
 - **Windows**:
 
-  - **_Descarga el instalador_**: Visita la página oficial de [GIT](https://git-scm.com/download/win) y descarga el instalador para Windows.
+  - **_Descarga el instalador_**: Visita la página oficial de [**GIT**](https://git-scm.com/download/win) y descarga el instalador para Windows.
   - **_Ejecuta el instalador_**: Haz doble clic en el archivo descargado y sigue las instrucciones del asistente de instalación. Asegúrate de seleccionar las opciones recomendadas, como agregar **GIT** al **PATH** del sistema para poder usarlo desde la línea de comandos.
   - **_Verifica la instalación_**: Abre una ventana de **Git Bash** (se instala junto con **GIT**) y ejecuta el comando **`git --version`**. Deberías ver la versión de **GIT** instalada.
 
@@ -92,7 +95,7 @@ La instalación de GIT es sencilla y varía ligeramente dependiendo de tu sistem
 
   - **Instalación con el instalador**:
 
-    1. **_Descarga el instalador_**: Visita la página oficial de **GIT** y descarga el instalador para **macOS**.
+    1. **_Descarga el instalador_**: Visita la página oficial de [**GIT**](https://git-scm.com/download/mac) y descarga el instalador para **macOS**.
     2. **_Ejecuta el instalador_**: Haz doble clic en el archivo descargado y sigue las instrucciones del asistente de instalación.
     3. **_Verifica la instalación_**: Abre una ventana de **Terminal** y ejecuta el comando **`git --version`**.
 
@@ -144,7 +147,7 @@ En el contexto de **GIT**, un repositorio es el núcleo central donde se almacen
 - **Tipos de Repositorios**:
 
   - **_Repositorio Local_**: Es una copia completa del proyecto almacenada en tu **máquina local**. Te permite trabajar sin conexión y realizar cambios sin afectar a otros desarrolladores.
-  - **_Repositorio Remoto_**: Es un repositorio almacenado en un **servidor externo**, como [**GitHub**]('https://github.com'), [**GitLab**]('https://about.gitlab.com/') o [**Bitbucket**]('https://bitbucket.org/product/'). Permite la colaboración entre múltiples desarrolladores y actúa como una copia de seguridad centralizada del proyecto.
+  - **_Repositorio Remoto_**: Es un repositorio almacenado en un **servidor externo**, como [**GitHub**](https://github.com), [**GitLab**](https://about.gitlab.com/) o [**Bitbucket**](https://bitbucket.org/product/). Permite la colaboración entre múltiples desarrolladores y actúa como una copia de seguridad centralizada del proyecto.
 
 - **Estructura de un Repositorio**:
 
@@ -332,7 +335,7 @@ El comando **`git clone`** te permite crear una copia local de un repositorio **
 **Cómo usar `git clone`**:
 
 - **_Abre una terminal o línea de comandos_**: Navega hasta el directorio donde deseas crear la copia local del repositorio.
-- **_Ejecuta el comando_**: Escribe **`git clone <URL-del-repositorio>`** y presiona Enter. Reemplaza **`<URL-del-repositorio>`** con la dirección del repositorio que deseas clonar (por ejemplo, la **URL** de un repositorio en [**GitHub**]('https://github.com'), [**GitLab**]('https://about.gitlab.com/') o [**Bitbucket**]('https://bitbucket.org/product/')).
+- **_Ejecuta el comando_**: Escribe **`git clone <URL-del-repositorio>`** y presiona Enter. Reemplaza **`<URL-del-repositorio>`** con la dirección del repositorio que deseas clonar (por ejemplo, la **URL** de un repositorio en [**GitHub**](https://github.com), [**GitLab**](https://about.gitlab.com/) o [**Bitbucket**](https://bitbucket.org/product/)).
 - **_Espera a que se complete la clonación_**: **GIT** descargará todos los archivos y el historial del repositorio. El tiempo que tarde dependerá del tamaño del repositorio y de la velocidad de tu conexión a internet.
 
 **Ejemplo**:
@@ -536,7 +539,7 @@ Date: Fri Aug 25 09:45:00 2024 -0500
 
 ### `git push` - Enviar cambios a un repositorio remoto
 
-El comando **`git push`** es tu vía de comunicación con el mundo exterior. Te permite enviar los commits que has creado en tu repositorio local a un repositorio remoto, como [**GitHub**]('https://github.com'), [**GitLab**]('https://about.gitlab.com/') o [**Bitbucket**]('https://bitbucket.org/product/'). Esto es esencial para colaborar con otros desarrolladores, compartir tu trabajo y mantener una copia de seguridad de tu código en un servidor externo.
+El comando **`git push`** es tu vía de comunicación con el mundo exterior. Te permite enviar los commits que has creado en tu repositorio local a un repositorio remoto, como [**GitHub**](https://github.com), [**GitLab**](https://about.gitlab.com/) o [**Bitbucket**](https://bitbucket.org/product/). Esto es esencial para colaborar con otros desarrolladores, compartir tu trabajo y mantener una copia de seguridad de tu código en un servidor externo.
 
 **¿Qué hace `git push`?**
 
@@ -751,7 +754,7 @@ El comando **`git merge`** es la herramienta que te permite integrar los cambios
 
 ```bash
 # Cambiar a la rama principal
-git checkout master
+git checkout main
 
 # Fusionar los cambios de la rama 'nueva-funcionalidad'
 git merge nueva-funcionalidad
@@ -836,7 +839,7 @@ def saludar(nombre):
 
 ### Repositorios Remotos
 
-Los repositorios remotos son la clave para la colaboración en GIT. Son copias de tu repositorio que se encuentran almacenadas en un servidor externo, como [**GitHub**]('https://github.com'), [**GitLab**]('https://about.gitlab.com/') o [**Bitbucket**]('https://bitbucket.org/product/'). Permiten que múltiples desarrolladores trabajen en el mismo proyecto, compartan sus cambios y mantengan una copia de seguridad centralizada del código.
+Los repositorios remotos son la clave para la colaboración en GIT. Son copias de tu repositorio que se encuentran almacenadas en un servidor externo, como [**GitHub**](https://github.com), [**GitLab**](https://about.gitlab.com/) o [**Bitbucket**](https://bitbucket.org/product/). Permiten que múltiples desarrolladores trabajen en el mismo proyecto, compartan sus cambios y mantengan una copia de seguridad centralizada del código.
 
 **¿Por qué usar repositorios remotos?**
 
@@ -963,7 +966,7 @@ Aunque ambos comandos se utilizan para interactuar con repositorios remotos, **`
 **`git fetch`**
 
 - **Acción**: Descarga los cambios del repositorio remoto (commits, ramas, etiquetas) pero NO los fusiona automáticamente en tu rama local actual.
-- **Resultado**: Actualiza tus ramas remotas locales (e.g., origin/master) para reflejar el estado actual del repositorio remoto.
+- **Resultado**: Actualiza tus ramas remotas locales (e.g., origin/main) para reflejar el estado actual del repositorio remoto.
 - **Uso**:
   - Para ver qué cambios han ocurrido en el repositorio remoto antes de integrarlos.
   - Para mantenerte al día con el trabajo de otros sin afectar tu rama local actual.
@@ -1007,7 +1010,7 @@ Aunque ambos comandos se utilizan para interactuar con repositorios remotos, **`
 
 ### Pull Requests
 
-Los **Pull Requests** (o **solicitudes de extracción**) son una funcionalidad esencial en plataformas de alojamiento de código como [**GitHub**]('https://github.com'), [**GitLab**]('https://about.gitlab.com/') o [**Bitbucket**]('https://bitbucket.org/product/') que facilitan la colaboración y la revisión de código en proyectos de software. Representan una propuesta formal para integrar los cambios de una rama en otra, generalmente de una rama de desarrollo a la rama principal (**master** o **main**).
+Los **Pull Requests** (o **solicitudes de extracción**) son una funcionalidad esencial en plataformas de alojamiento de código como [**GitHub**](https://github.com), [**GitLab**](https://about.gitlab.com/) o [**Bitbucket**](https://bitbucket.org/product/) que facilitan la colaboración y la revisión de código en proyectos de software. Representan una propuesta formal para integrar los cambios de una rama en otra, generalmente de una rama de desarrollo a la rama principal (**master** o **main**).
 
 **¿Cómo funcionan los Pull Requests?**
 
@@ -1058,9 +1061,9 @@ Ejemplo:
 
 git checkout desarrollo
 
-# Reubicar los commits de 'desarrollo' sobre la rama 'master'
+# Reubicar los commits de 'desarrollo' sobre la rama 'main'
 
-git rebase master
+git rebase main
 ```
 
 **Consideraciones**:
@@ -1263,7 +1266,7 @@ El comando **`git cherry-pick`** te permite seleccionar uno o varios commits esp
 ```bash
 # Cambiar a la rama principal
 
-git checkout master
+git checkout main
 
 # Aplicar el commit 'a1b2c3d' de la rama 'desarrollo'
 
@@ -1519,18 +1522,18 @@ Veamos un ejemplo práctico de cómo crear ramas, realizar cambios en ellas y fu
    Una vez que hayas terminado de implementar la nueva característica, vuelve a la rama principal:
 
    ```bash
-   git checkout master
+   git checkout main
    ```
 
 4. **_Fusionar los cambios_**:
 
-   Utiliza **`git merge`** para integrar los cambios de la rama nueva-caracteristica en la rama master:
+   Utiliza **`git merge`** para integrar los cambios de la rama **`nueva-caracteristica`** en la rama main:
 
    ```bash
    git merge nueva-caracteristica
    ```
 
-   Si no hay conflictos, **GIT** realizará un **"fast-forward merge"** y moverá el puntero de la rama master para que apunte a los nuevos commits de la rama nueva-caracteristica.
+   Si no hay conflictos, **GIT** realizará un **"fast-forward merge"** y moverá el puntero de la rama main para que apunte a los nuevos commits de la rama **`nueva-caracteristica`**.
 
 5. **_Eliminar la rama_** (**opcional**):
 
@@ -1543,7 +1546,7 @@ Veamos un ejemplo práctico de cómo crear ramas, realizar cambios en ellas y fu
 **Visualización del proceso**:
 
 ```text
-master        o---o---o
+main        o---o---o
                \
 nueva-caracteristica  o---o---o
 ```
@@ -1551,7 +1554,7 @@ nueva-caracteristica  o---o---o
 **Después del merge**:
 
 ```text
-master        o---o---o---o---o
+main        o---o---o---o---o
 ```
 
 ### Resolver conflictos de fusión
@@ -1627,11 +1630,11 @@ Los conflictos de fusión ocurren cuando **GIT** no puede combinar automáticame
 
 ### Colaborar en un proyecto con otros desarrolladores
 
-La colaboración es uno de los pilares de GIT, y te permite trabajar en equipo de manera eficiente y sincronizada. Veamos un ejemplo práctico de cómo colaborar en un proyecto utilizando un repositorio remoto en una plataforma como [**GitHub**]('https://github.com').
+La colaboración es uno de los pilares de GIT, y te permite trabajar en equipo de manera eficiente y sincronizada. Veamos un ejemplo práctico de cómo colaborar en un proyecto utilizando un repositorio remoto en una plataforma como [**GitHub**](https://github.com).
 
 **Escenario**:
 
-- Existe un repositorio en [**GitHub**]('https://github.com') llamado **`proyecto-colaborativo`**.
+- Existe un repositorio en [**GitHub**](https://github.com) llamado **`proyecto-colaborativo`**.
 - Tú y otros desarrolladores quieren contribuir al proyecto.
 
 **Pasos para colaborar**:
@@ -1676,7 +1679,7 @@ La colaboración es uno de los pilares de GIT, y te permite trabajar en equipo d
 
 5. **_Abrir un Pull Request_**:
 
-   - En [**GitHub**]('https://github.com'), abre un **Pull Request** desde tu rama **`mi-funcionalidad`** hacia la rama **master** (o la rama principal del proyecto).
+   - En [**GitHub**](https://github.com), abre un **Pull Request** desde tu rama **`mi-funcionalidad`** hacia la rama **main** (o la rama principal del proyecto).
    - Describe los cambios que has realizado y solicita que otros desarrolladores revisen tu código.
 
 6. **_Revisión de código y discusión_**:
@@ -1695,7 +1698,7 @@ La colaboración es uno de los pilares de GIT, y te permite trabajar en equipo d
    - Después de que tu rama se haya fusionado, actualiza tu repositorio local para incluir los cambios:
 
      ```bash
-     git checkout master
+     git checkout main
      git pull
      ```
 
@@ -1734,16 +1737,16 @@ Además de la documentación oficial, existen numerosos tutoriales y cursos en l
 
 - **_Plataformas de aprendizaje en línea_**:
 
-  - [**Coursera**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.coursera.org/): Ofrece cursos completos sobre **GIT**, algunos de ellos gratuitos, impartidos por universidades y expertos reconocidos.
-  - [**Udemy**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.udemy.com/es/): Cuenta con una amplia variedad de cursos sobre **GIT**, desde introducciones básicas hasta especializaciones en flujos de trabajo y técnicas avanzadas.
-  - [**Platzi**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://platzi.com/): Ofrece cursos en español sobre **GIT** y otras herramientas de desarrollo, con un enfoque práctico y orientado a proyectos.
-  - [**LinkedIn Learning**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/learning): Proporciona cursos de alta calidad sobre **GIT**, ideales para profesionales que buscan mejorar sus habilidades.
+  - [**Coursera**](https://www.coursera.org/): Ofrece cursos completos sobre **GIT**, algunos de ellos gratuitos, impartidos por universidades y expertos reconocidos.
+  - [**Udemy**](https://www.udemy.com/es/): Cuenta con una amplia variedad de cursos sobre **GIT**, desde introducciones básicas hasta especializaciones en flujos de trabajo y técnicas avanzadas.
+  - [**Platzi**](https://platzi.com/): Ofrece cursos en español sobre **GIT** y otras herramientas de desarrollo, con un enfoque práctico y orientado a proyectos.
+  - [**LinkedIn Learning**](https://www.linkedin.com/learning): Proporciona cursos de alta calidad sobre **GIT**, ideales para profesionales que buscan mejorar sus habilidades.
 
 - **_Tutoriales interactivos_**:
 
-  - [**Learn Git Branching**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://learngitbranching.js.org/): Un tutorial interactivo y visual que te guía a través de los conceptos clave de las ramas en **GIT**, con ejercicios prácticos y desafíos.
+  - [**Learn Git Branching**](https://learngitbranching.js.org/): Un tutorial interactivo y visual que te guía a través de los conceptos clave de las ramas en **GIT**, con ejercicios prácticos y desafíos.
   - [**Git Immersion**](https://gitimmersion.com/): Un tutorial guiado que te sumerge en el mundo de **GIT**, enseñándote los comandos y conceptos básicos a través de ejemplos y ejercicios prácticos.
-  - [**Try Git**](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://trygit.js.org/): Un tutorial interactivo de **Code School** que te introduce a los comandos básicos de **GIT** en un entorno simulado.
+  - [**Try Git**](https://trygit.js.org/): Un tutorial interactivo de **Code School** que te introduce a los comandos básicos de **GIT** en un entorno simulado.
 
 - **_Canales de YouTube_**:
   - [**freeCodeCamp**](https://www.youtube.com/@freecodecamp): Ofrece tutoriales en video gratuitos y completos sobre **GIT**, desde los conceptos básicos hasta temas más avanzados.
