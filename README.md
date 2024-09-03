@@ -35,14 +35,15 @@
 
 **GIT** es un sistema de control de versiones distribuido de código abierto. En términos sencillos, te permite llevar un seguimiento de los cambios realizados en tus archivos a lo largo del tiempo, permitiéndote retroceder a versiones anteriores si es necesario. Imagina que es como una máquina del tiempo para tu código.
 
-- **Características Clave:**
+- **Características Clave**:
   - **_Control de Versiones_**: Registra cada cambio realizado en tus archivos, creando un historial completo de tu proyecto.
   - **_Distribuido_**: Cada desarrollador tiene una copia completa del repositorio en su máquina local, lo que permite trabajar sin conexión y fusionar cambios posteriormente.
   - **_Ramificación (Branching)_**: Permite crear ramas independientes del proyecto para trabajar en nuevas funcionalidades o correcciones sin afectar la versión principal.
   - **_Colaboración_**: Facilita el trabajo en equipo al permitir que varios desarrolladores trabajen en el mismo proyecto simultáneamente y fusionen sus cambios de manera controlada.
   - **_Eficiencia_**: GIT es muy rápido y eficiente, incluso con proyectos grandes y complejos.
   - **_Flexibilidad_**: Se adapta a diferentes flujos de trabajo y estilos de desarrollo.
-- **Ventajas de usar GIT:**
+    
+- **Ventajas de usar GIT**:
   - **_Seguridad_**: Protege tu código contra pérdidas accidentales o modificaciones no deseadas.
   - **_Organización_**: Mantiene tu proyecto organizado y estructurado.
   - **_Colaboración_**: Facilita el trabajo en equipo y la gestión de proyectos.
@@ -83,7 +84,7 @@
 
 ### **Instalación de GIT**
 
-La instalación de GIT es sencilla y varía ligeramente dependiendo de tu sistema operativo. A continuación, te proporcionamos instrucciones para los sistemas más comunes:
+La instalación de GIT es sencilla y varía ligeramente dependiendo de tu sistema operativo. A continuación, encontrarás instrucciones para los sistemas más comunes:
 
 - **Windows**:
 
