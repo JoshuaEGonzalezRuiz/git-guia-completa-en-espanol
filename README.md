@@ -1,7 +1,7 @@
 <div align="center">
-    <img alt="GIT - Guía completa en español" title="#cursocompletogitenespañol" src="git_logo.png" width="250px" />
+    <img alt="GIT - Guía completa en Español" title="#cursocompletogitenespañol" src="git_logo.png" width="250px" />
     <h1 align="center">
-    GIT - Guía completa en español
+    GIT - Guía completa en Español
     </h1>
 </div>
 
@@ -10,14 +10,14 @@
 </h4>
 
 <p align="center">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/JoshuaEGonzalezRuiz/learning_git_from_cero_to_expert">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/JoshuaEGonzalezRuiz/git-guia-completa-en-espanol">
   
-  <a href="https://github.com/JoshuaEGonzalezRuiz/learning_git_from_cero_to_expert">
-    <img alt="Last commit" src="https://img.shields.io/github/last-commit/JoshuaEGonzalezRuiz/learning_git_from_cero_to_expert">
+  <a href="https://github.com/JoshuaEGonzalezRuiz/git-guia-completa-en-espanol">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/JoshuaEGonzalezRuiz/git-guia-completa-en-espanol">
   </a>
 
-  <a href="https://github.com/JoshuaEGonzalezRuiz/learning_git_from_cero_to_expert/issues">
-    <img alt="Issues" src="https://img.shields.io/github/issues/JoshuaEGonzalezRuiz/learning_git_from_cero_to_expert">
+  <a href="https://github.com/JoshuaEGonzalezRuiz/git-guia-completa-en-espanol/issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/JoshuaEGonzalezRuiz/git-guia-completa-en-espanol">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
