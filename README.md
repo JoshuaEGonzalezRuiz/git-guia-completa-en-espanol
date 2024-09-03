@@ -552,7 +552,7 @@ El comando **`git push`** es tu vía de comunicación con el mundo exterior. Te 
 
 - **_Colaboración_**: Cuando quieres compartir tus cambios con otros desarrolladores que están trabajando en el mismo proyecto.
 - **_Copia de Seguridad_**: Cuando quieres asegurarte de que tus cambios están respaldados en un servidor remoto en caso de problemas con tu máquina local.
-- Despliegue: Cuando quieres desplegar tu código en un servidor de producción o de pruebas.
+- **_Despliegue_**: Cuando quieres desplegar tu código en un servidor de producción o de pruebas.
 
 **Cómo usar `git push`**:
 
@@ -966,20 +966,20 @@ Aunque ambos comandos se utilizan para interactuar con repositorios remotos, **`
 
 **`git fetch`**
 
-- **Acción**: Descarga los cambios del repositorio remoto (commits, ramas, etiquetas) pero NO los fusiona automáticamente en tu rama local actual.
-- **Resultado**: Actualiza tus ramas remotas locales (e.g., origin/main) para reflejar el estado actual del repositorio remoto.
-- **Uso**:
+- **_Acción_**: Descarga los cambios del repositorio remoto (commits, ramas, etiquetas) pero NO los fusiona automáticamente en tu rama local actual.
+- **_Resultado_**: Actualiza tus ramas remotas locales (e.g., origin/main) para reflejar el estado actual del repositorio remoto.
+- **_Uso_**:
   - Para ver qué cambios han ocurrido en el repositorio remoto antes de integrarlos.
   - Para mantenerte al día con el trabajo de otros sin afectar tu rama local actual.
   - Cuando quieres tener un mayor control sobre cuándo y cómo integrar los cambios remotos.
 
 **`git pull`**
 
-- **Acción**: Es una combinación de dos comandos:
+- **_Acción_**: Es una combinación de dos comandos:
   - **`git fetch`**: Descarga los cambios del repositorio remoto.
   - **`git merge`**: Fusiona automáticamente los cambios descargados en tu rama local actual.
-- **Resultado**: Actualiza tu rama local actual con los cambios del repositorio remoto.
-- **Uso**:
+- **_Resultado_**: Actualiza tu rama local actual con los cambios del repositorio remoto.
+- **_Uso_**:
   - Para actualizar rápidamente tu rama local con los últimos cambios del repositorio remoto.
   - Cuando confías en que los cambios remotos no causarán conflictos con tu trabajo local.
   - En flujos de trabajo donde la integración de cambios es frecuente y se espera que sea fluida.
@@ -1005,6 +1005,7 @@ Aunque ambos comandos se utilizan para interactuar con repositorios remotos, **`
   - Cuando quieres tener un control más preciso sobre el proceso de fusión.
 
 - **`git pull`**:
+  
   - Cuando quieres actualizar rápidamente tu rama local con los últimos cambios remotos.
   - Cuando confías en que los cambios remotos no causarán conflictos.
   - En flujos de trabajo donde la integración de cambios es frecuente y se espera que sea fluida.
@@ -1079,8 +1080,8 @@ El comando **`git reset`** es una herramienta versátil pero potencialmente peli
 
 **¿Qué hace `git reset`?**
 
-- **Mueve HEAD**: Cambia el puntero **HEAD** a un **commit** específico, modificando efectivamente la rama actual.
-- **Modifica el Staging Area**: Puede eliminar archivos del **Staging Area** o incluso descartar cambios en el **Working Tree**, dependiendo del modo de operación utilizado.
+- **_Mueve HEAD_**: Cambia el puntero **HEAD** a un **commit** específico, modificando efectivamente la rama actual.
+- **_Modifica el Staging Area_**: Puede eliminar archivos del **Staging Area** o incluso descartar cambios en el **Working Tree**, dependiendo del modo de operación utilizado.
 
 **Modos de Operación**:
 
@@ -1213,6 +1214,7 @@ El comando **`git tag`** te permite crear etiquetas (**tags**) en puntos especí
    - **`git tag -d <nombre-etiqueta>`**
 
 5. **Enviar etiquetas a un repositorio remoto**:
+   
    - **`git push origin <nombre-etiqueta>`**: Envía una etiqueta específica al repositorio remoto.
    - **`git push origin --tags`**: Envía todas las etiquetas al repositorio remoto.
 
@@ -1360,7 +1362,7 @@ La elección del flujo de trabajo depende del tamaño del proyecto, la complejid
 
 El archivo **`.gitignore`** es un componente esencial para mantener tu repositorio **GIT** limpio y organizado. Te permite especificar qué archivos o carpetas deseas excluir del control de versiones, evitando que **GIT** los rastree y los incluya en tus commits. Esto es especialmente útil para ignorar archivos temporales, archivos de configuración específicos del entorno, archivos generados automáticamente y otros archivos que no son parte del código fuente de tu proyecto.
 
-**¿Por qué usar .gitignore?**
+**¿Por qué usar `.gitignore`?**
 
 - **_Evitar commits innecesarios_**: Previene que archivos irrelevantes o temporales se incluyan en tus commits, manteniendo el historial de tu repositorio limpio y enfocado en los cambios importantes del código.
 - **_Proteger información sensible_**: Permite excluir archivos de configuración que contienen contraseñas, claves de **API** u otra información confidencial que no debe ser compartida públicamente.
@@ -1395,7 +1397,7 @@ El archivo **`.gitignore`** es un componente esencial para mantener tu repositor
 
 Vamos a ver un ejemplo práctico de cómo crear un repositorio **GIT**, añadir archivos, hacer commits y ver el historial de cambios.
 
-1. **_Crear un nuevo proyecto_**:
+1. **Crear un nuevo proyecto**:
 
    - Crea una carpeta para tu proyecto, por ejemplo, **mi-proyecto**.
      Abre una terminal o línea de comandos y navega hasta esa carpeta:
@@ -1405,7 +1407,7 @@ Vamos a ver un ejemplo práctico de cómo crear un repositorio **GIT**, añadir 
      cd mi-proyecto
      ```
 
-2. **_Inicializar el repositorio_**:
+2. **Inicializar el repositorio**:
 
    - Utiliza el comando **`git init`** para convertir la carpeta en un repositorio **GIT**:
 
@@ -1415,7 +1417,7 @@ Vamos a ver un ejemplo práctico de cómo crear un repositorio **GIT**, añadir 
 
      Deberías ver un mensaje indicando que se ha creado un repositorio **GIT** vacío en la carpeta **`.git`**.
 
-3. **_Crear archivos_**:
+3. **Crear archivos**:
 
    - Crea algunos archivos en tu proyecto. Por ejemplo:
 
@@ -1424,7 +1426,7 @@ Vamos a ver un ejemplo práctico de cómo crear un repositorio **GIT**, añadir 
      echo "Este es mi primer proyecto con GIT" > README.md
      ```
 
-4. **_Añadir archivos al Staging Area_**:
+4. **Añadir archivos al Staging Area**:
 
    - Utiliza **`git add`** para añadir los archivos que quieres incluir en tu primer commit:
 
@@ -1432,7 +1434,7 @@ Vamos a ver un ejemplo práctico de cómo crear un repositorio **GIT**, añadir 
      git add index.html README.md
      ```
 
-5. **_Hacer el primer commit_**:
+5. **Hacer el primer commit**:
 
    - Utiliza git commit para crear el commit con un mensaje descriptivo:
 
@@ -1440,7 +1442,7 @@ Vamos a ver un ejemplo práctico de cómo crear un repositorio **GIT**, añadir 
      git commit -m "Commit inicial: se agregan archivos básicos"
      ```
 
-6. **_Hacer más cambios y commits_**:
+6. **Hacer más cambios y commits**:
 
    - Modifica los archivos existentes o crea nuevos archivos.
    - Añade los cambios al **Staging Area** con **`git add`**.
@@ -1458,7 +1460,7 @@ Vamos a ver un ejemplo práctico de cómo crear un repositorio **GIT**, añadir 
      git commit -m "Agrega archivo de estilos"
      ```
 
-7. **_Ver el historial de commits_**:
+7. **Ver el historial de commits**:
 
    - Utiliza **`git log`** para ver la lista de commits que has creado:
 
@@ -1492,7 +1494,7 @@ Vamos a ver un ejemplo práctico de cómo crear un repositorio **GIT**, añadir 
 
 Veamos un ejemplo práctico de cómo crear ramas, realizar cambios en ellas y fusionarlas de vuelta a la rama principal, ilustrando un flujo de trabajo común en GIT.
 
-1. **_Crear una nueva rama_**:
+1. **Crear una nueva rama**:
 
    Supongamos que estás en la rama **master** o **main** y quieres añadir una nueva característica a tu proyecto. Crea una nueva rama llamada **nueva-caracteristica**:
 
@@ -1502,7 +1504,7 @@ Veamos un ejemplo práctico de cómo crear ramas, realizar cambios en ellas y fu
 
    Este comando crea la rama y te cambia automáticamente a ella.
 
-2. **_Realizar cambios en la nueva rama_**:
+2. **Realizar cambios en la nueva rama**:
 
    Modifica los archivos necesarios para implementar la nueva característica.
    Añade los cambios al **Staging Area** con **`git add`**.
@@ -1518,7 +1520,7 @@ Veamos un ejemplo práctico de cómo crear ramas, realizar cambios en ellas y fu
    git commit -m "Implementa lógica principal de la nueva característica"
    ```
 
-3. **_Cambiar a la rama principal_**:
+3. **Cambiar a la rama principal**:
 
    Una vez que hayas terminado de implementar la nueva característica, vuelve a la rama principal:
 
@@ -1526,7 +1528,7 @@ Veamos un ejemplo práctico de cómo crear ramas, realizar cambios en ellas y fu
    git checkout main
    ```
 
-4. **_Fusionar los cambios_**:
+4. **Fusionar los cambios**:
 
    Utiliza **`git merge`** para integrar los cambios de la rama **`nueva-caracteristica`** en la rama main:
 
@@ -1536,7 +1538,7 @@ Veamos un ejemplo práctico de cómo crear ramas, realizar cambios en ellas y fu
 
    Si no hay conflictos, **GIT** realizará un **"fast-forward merge"** y moverá el puntero de la rama main para que apunte a los nuevos commits de la rama **`nueva-caracteristica`**.
 
-5. **_Eliminar la rama_** (**opcional**):
+5. **Eliminar la rama** (**opcional**):
 
    Si ya no necesitas la rama nueva-caracteristica, puedes eliminarla:
 
@@ -1750,6 +1752,7 @@ Además de la documentación oficial, existen numerosos tutoriales y cursos en l
   - [**Try Git**](https://trygit.js.org/): Un tutorial interactivo de **Code School** que te introduce a los comandos básicos de **GIT** en un entorno simulado.
 
 - **_Canales de YouTube_**:
+  
   - [**freeCodeCamp**](https://www.youtube.com/@freecodecamp): Ofrece tutoriales en video gratuitos y completos sobre **GIT**, desde los conceptos básicos hasta temas más avanzados.
   - [**Programming with Mosh**](https://www.youtube.com/@programmingwithmosh): Cursos y tutoriales en video sobre **GIT** y otras tecnologías, con explicaciones claras y ejemplos prácticos.
   - [**The Net Ninja**](https://www.youtube.com/@NetNinja): Tutoriales en video sobre **GIT** y desarrollo web, con un enfoque amigable y fácil de seguir.
