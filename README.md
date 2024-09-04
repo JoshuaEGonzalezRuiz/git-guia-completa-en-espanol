@@ -10,7 +10,7 @@
 </h4>
 
 <p align="center">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/JoshuaEGonzalezRuiz/git-guia-completa-en-espanol">
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/JoshuaEGonzalezRuiz/git-guia-completa-en-espanol">
   
   <a href="https://github.com/JoshuaEGonzalezRuiz/git-guia-completa-en-espanol">
     <img alt="Last commit" src="https://img.shields.io/github/last-commit/JoshuaEGonzalezRuiz/git-guia-completa-en-espanol">
@@ -20,7 +20,16 @@
     <img alt="Issues" src="https://img.shields.io/github/issues/JoshuaEGonzalezRuiz/git-guia-completa-en-espanol">
   </a>
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
+
+<p align="center">
+    <a href="https://github.com/JoshuaEGonzalezRuiz/git-guide-complete-in-english">
+        <img alt="Translation available in English" src="https://img.shields.io/badge/translation-enUS-%23556FB5?style=flat">
+    </a>
+</p>
+
+<p align="center">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-%2378B0A0?style=flat">
 </p>
 
 <h1 align="center">🖖👽</h1>
@@ -399,7 +408,7 @@ El comando **git commit** es el que finalmente registra los cambios que has prep
 - Registra el autor, la fecha y un mensaje descriptivo del commit.
 - Actualiza el puntero **HEAD** para señalar al nuevo commit creado.
 
-**¿Cuándo usar git commit?**
+**¿Cuándo usar `git commit`?**
 
 - **_Después de añadir cambios al Staging Area_**: Una vez que has utilizado **`git add`** para preparar los cambios que deseas incluir en el commit, debes usar **`git commit`** para crear el commit.
 - **_Para guardar un punto de control_**: Cuando has completado una tarea o una funcionalidad y quieres guardar una instantánea de tu proyecto en ese estado.
@@ -565,7 +574,7 @@ El comando **`git push`** es tu vía de comunicación con el mundo exterior. Te 
 ```bash
 # Añadir una conexión remota (si es necesario)
 
-git remote add origin https://github.com/mi-usuario/mi-proyecto.git
+git remote add origin https://github.com/tu-usuario/tu-proyecto.git
 
 # Hacer commits en la rama local
 
@@ -906,7 +915,7 @@ El comando **`git remote`** es tu herramienta para establecer y administrar las 
 git remote
 
 # Añadir un nuevo repositorio remoto llamado 'upstream'
-git remote add upstream https://github.com/otro-usuario/mi-proyecto.git
+git remote add upstream https://github.com/otro-usuario/otro-proyecto.git
 
 # Mostrar detalles de la conexión remota 'origin'
 git remote show origin
