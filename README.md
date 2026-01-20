@@ -6,7 +6,7 @@
 </div>
 
 <h4 align="center">
-  Hecho de ❤️ para toda la comunidad
+  Hecho de ❤️ para toda la comunidad de Alexis Gandia Micó
 </h4>
 
 <p align="center">
